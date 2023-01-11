@@ -40,5 +40,13 @@ h1 {
 }
 
 .hero-text {
-    margin-left: 40px;
+    margin-left: 80px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    border-radius: 25px;
+    text-align: center;
 }
