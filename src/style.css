@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
+    
     background-color: white;
     border: solid black 1px;
 }
@@ -111,3 +111,16 @@ p {
     padding: 80px;
 }
 
+
+.headshot {
+    width: 220px;
+    border-radius: 50px;
+    
+}
+
+.headshot-container {
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
