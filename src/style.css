@@ -45,6 +45,10 @@ h1 {
     font-weight: 600;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-weight: 300;
@@ -86,11 +90,13 @@ p {
 
 .socials {
     padding-bottom: 250px;
+
 }
 
 .social {
-    padding-top: 10px;
+    
     margin: 20px;
+   
 }
 
 .logo {
@@ -98,3 +104,10 @@ p {
     
     
 }
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
