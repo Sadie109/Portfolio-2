@@ -128,8 +128,8 @@ p {
 }
 
 .Project-item {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 600px;
   box-shadow: 5px 5px 20px rgb(24, 24, 58);
   margin: 10px;
 }
