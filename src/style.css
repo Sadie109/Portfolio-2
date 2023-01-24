@@ -124,3 +124,22 @@ p {
     display: flex;
     align-items: center;
 }
+
+.Project-item {
+    width: 400px;
+    height: 500px;
+    box-shadow: 5px 5px 20px  rgb(24, 24, 58);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.subsection-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
