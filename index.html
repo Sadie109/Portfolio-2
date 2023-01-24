@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="src/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f6a886d62c.js" crossorigin="anonymous"></script>
         <title>My Portfolio</title>
         <meta charset="UTF-8"/>
     </head>
@@ -10,11 +11,14 @@
         <section class="hero">
             <nav>
                 <img class="logo" src="src/img/logo.png"/>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
             <div class ="hero-area">
             <div class="hero-text"> <h1> Hi, I'm Sadie Goddard</h1>
@@ -57,7 +61,10 @@
                 
             </div>
         </section>
-        <footer id="contact-me"></footer>
+        <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Sadie109@hotmail.com</p>
+    </footer>
         <script src="src/app.js"></script>
     </body>
 </html>
