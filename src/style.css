@@ -5,7 +5,7 @@ body {
 section {
     
     background-color: white;
-    border: solid black 1px;
+    
 }
 
 .hero {
@@ -53,6 +53,12 @@ p {
     margin: 0;
     font-weight: 300;
     font-size: 30px;
+}
+
+
+.subtext {
+   font-size: 15px;
+   font-weight: 300;   
 }
 
 .hero-area {
