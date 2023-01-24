@@ -120,6 +120,7 @@ p {
 
 .headshot {
     width: 220px;
+    box-shadow: 5px 5px 20px rgb(24, 24, 58);
     border-radius: 50px;
     
 }
@@ -135,6 +136,7 @@ p {
     width: 400px;
     height: 500px;
     box-shadow: 5px 5px 20px  rgb(24, 24, 58);
+    margin: 10px;
 }
 
 .project-container {
@@ -148,4 +150,26 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+}
+
+.project-img {
+    margin-top: 25px ;
+    width: 350px;
+    border-radius: 20px ;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+   text-decoration: none;
+    color:  goldenrod ;
+    
+}
+
+.subtext-link {
+    font-size: 20px;
+    font-weight: 400;
 }
